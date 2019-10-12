@@ -44,7 +44,7 @@ body {
   top: 0;
   left: 0;
   position: absolute;
-  -webkit-app-region: drag;
+  -webkit-app-region: none;
 }
 
 h2 {
@@ -248,7 +248,8 @@ h1 {
 }
 
 .draggable {
-  position: relative;
+  position: absolute;
+  -webkit-user-drag: none;
 }
 
 .image {

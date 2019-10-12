@@ -57,7 +57,7 @@ class AppContainer extends Component<Props> {
           <div
             style={{
               alignSelf: 'flex-end',
-              position: 'fixed',
+              position: 'absolute',
               width: '100%',
             }}>
             <LinearProgress color="secondary" />
